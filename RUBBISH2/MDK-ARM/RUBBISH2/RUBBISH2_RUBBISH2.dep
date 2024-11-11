@@ -157,7 +157,7 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6707CAC7)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6707CAC7)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6707CAC7)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6707CAC7)
-F (../Core/Src/stm32f1xx_it.c)(0x672CD2CF)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\APP -I ..\BSP-I.\RTE\_RUBBISH2-ID:\Keil\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Keil\ARM\Pack\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o rubbish2\stm32f1xx_it.o --omf_browse rubbish2\stm32f1xx_it.crf --depend rubbish2\stm32f1xx_it.d)
+F (../Core/Src/stm32f1xx_it.c)(0x673218A4)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\APP -I ..\BSP-I.\RTE\_RUBBISH2-ID:\Keil\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Keil\ARM\Pack\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o rubbish2\stm32f1xx_it.o --omf_browse rubbish2\stm32f1xx_it.crf --depend rubbish2\stm32f1xx_it.d)
 I (../Core/Inc/main.h)(0x673203C9)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6707CAC7)
 I (../Core/Inc/stm32f1xx_hal_conf.h)(0x672CD2D0)
@@ -187,6 +187,7 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6707CAC7)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6707CAC7)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6707CAC7)
 I (../Core/Inc/stm32f1xx_it.h)(0x672CD2CF)
+I (../Core/Inc/usart.h)(0x6732056F)
 F (../Core/Src/stm32f1xx_hal_msp.c)(0x672CC5F5)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\APP -I ..\BSP-I.\RTE\_RUBBISH2-ID:\Keil\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Keil\ARM\Pack\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o rubbish2\stm32f1xx_hal_msp.o --omf_browse rubbish2\stm32f1xx_hal_msp.crf --depend rubbish2\stm32f1xx_hal_msp.d)
 I (../Core/Inc/main.h)(0x673203C9)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6707CAC7)
