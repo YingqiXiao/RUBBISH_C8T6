@@ -26,7 +26,7 @@
 "rubbish2\bsp_servo.o"
 "rubbish2\bsp_uart.o"
 "rubbish2\task.o"
---strict --scatter "RUBBISH2\RUBBISH2.sct"
+--library_type=microlib --strict --scatter "RUBBISH2\RUBBISH2.sct"
 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers
 --list "RUBBISH2.map" -o RUBBISH2\RUBBISH2.axf
