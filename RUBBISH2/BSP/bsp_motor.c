@@ -22,7 +22,7 @@ void Pull_Motor()
 	{
 		HAL_TIM_PWM_Start(&htim1,TIM_CHANNEL_1);
 		HAL_GPIO_WritePin(ENA1_GPIO_Port, ENA1_Pin, GPIO_PIN_RESET);//ENA
-		HAL_GPIO_WritePin(DIR1_GPIO_Port, DIR1_Pin, GPIO_PIN_RESET);//DIR
+		HAL_GPIO_WritePin(DIR1_GPIO_Port, DIR1_Pin, GPIO_PIN_SET);//DIR
 		
 	}
 	if(start_flag != 1)

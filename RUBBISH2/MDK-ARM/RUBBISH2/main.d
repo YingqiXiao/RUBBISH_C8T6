@@ -33,5 +33,8 @@ rubbish2\main.o: ../Core/Inc/tim.h
 rubbish2\main.o: ../Core/Inc/usart.h
 rubbish2\main.o: ../Core/Inc/gpio.h
 rubbish2\main.o: D:\Keil\ARM\ARMCC\Bin\..\include\string.h
-rubbish2\main.o: ..\BSP\bsp_uart.h
-rubbish2\main.o: ..\APP\task.h
+rubbish2\main.o: ../BSP/bsp_uart.h
+rubbish2\main.o: ../APP/task.h
+rubbish2\main.o: ../BSP/bsp_sensor.h
+rubbish2\main.o: ../BSP/bsp_key.h
+rubbish2\main.o: ../BSP/bsp_motor.h

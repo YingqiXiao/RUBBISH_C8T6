@@ -31,6 +31,7 @@ rubbish2\task.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h
 rubbish2\task.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
 rubbish2\task.o: ../Core/Inc/tim.h
 rubbish2\task.o: ../Core/Inc/usart.h
-rubbish2\task.o: ..\BSP\bsp_uart.h
-rubbish2\task.o: ..\BSP\bsp_motor.h
-rubbish2\task.o: ..\BSP\bsp_servo.h
+rubbish2\task.o: ../BSP/bsp_uart.h
+rubbish2\task.o: ../BSP/bsp_motor.h
+rubbish2\task.o: ../BSP/bsp_servo.h
+rubbish2\task.o: ../BSP/bsp_key.h

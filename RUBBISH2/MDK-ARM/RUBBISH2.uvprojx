@@ -81,7 +81,7 @@
           </BeforeMake>
           <AfterMake>
             <RunUserProg1>0</RunUserProg1>
-            <RunUserProg2>0</RunUserProg2>
+            <RunUserProg2>1</RunUserProg2>
             <UserProg1Name></UserProg1Name>
             <UserProg2Name></UserProg2Name>
             <UserProg1Dos16Mode>0</UserProg1Dos16Mode>
@@ -340,7 +340,7 @@
               <MiscControls></MiscControls>
               <Define>USE_HAL_DRIVER,STM32F103xB</Define>
               <Undefine></Undefine>
-              <IncludePath>../Core/Inc;../Drivers/STM32F1xx_HAL_Driver/Inc;../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy;../Drivers/CMSIS/Device/ST/STM32F1xx/Include;../Drivers/CMSIS/Include;..\APP;..\BSP</IncludePath>
+              <IncludePath>../Core/Inc;../Drivers/STM32F1xx_HAL_Driver/Inc;../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy;../Drivers/CMSIS/Device/ST/STM32F1xx/Include;../Drivers/CMSIS/Include;../APP;../BSP</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -701,6 +701,26 @@
               <FileName>bsp_uart.h</FileName>
               <FileType>5</FileType>
               <FilePath>..\BSP\bsp_uart.h</FilePath>
+            </File>
+            <File>
+              <FileName>bsp_sensor.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\BSP\bsp_sensor.c</FilePath>
+            </File>
+            <File>
+              <FileName>bsp_sensor.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\BSP\bsp_sensor.h</FilePath>
+            </File>
+            <File>
+              <FileName>bsp_key.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\BSP\bsp_key.c</FilePath>
+            </File>
+            <File>
+              <FileName>bsp_key.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\BSP\bsp_key.h</FilePath>
             </File>
           </Files>
         </Group>

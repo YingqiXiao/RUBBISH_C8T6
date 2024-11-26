@@ -28,6 +28,9 @@
 #include "string.h"
 #include "bsp_uart.h"
 #include "task.h"
+#include "bsp_sensor.h"
+#include "bsp_key.h"
+#include "bsp_motor.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -48,7 +51,7 @@
 /* Private variables ---------------------------------------------------------*/
 
 /* USER CODE BEGIN PV */
-
+//	uint16_t timeg = 0;
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -106,19 +109,28 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-		if(recv_end_flag == 1 && rx_len == DATA_REAL_LENGTH)  //接收完成标志
-		{
-			Data_Resolve(&Uart_Flag);
-			rx_len = 0;//清除计数
-			recv_end_flag = 0;//清除接收结束标志位
+//	timeg++;
+	if(recv_end_flag == 1 && rx_len == DATA_REAL_LENGTH)  //接收完成标志
+	{
+		Data_Resolve(&Uart_Flag);
+		rx_len = 0;//清除计数
+		recv_end_flag = 0;//清除接收结束标志位
 //			for(uint8_t i=0;i<rx_len;i++)
 //				{
 //					rx_buffer[i]=0;//清接收缓存
 //				}
-				memset(rx_buffer,0,rx_len);
-		}
+			memset(rx_buffer,0,rx_len);
+	}		
+	HAL_UART_Receive_DMA(&huart2,rx_buffer,BUFFER_SIZE);//重新打开DMA接收
+//	if(Uart_Flag.flag == 0)	
+//	{
+//		HAL_Delay(1000);
+//	Stepper2(0);
+//	HAL_Delay(1000);	
+//	Stepper2(1);
+//	}
+//		Sensor_Scan();
 		
-		HAL_UART_Receive_DMA(&huart2,rx_buffer,BUFFER_SIZE);//重新打开DMA接收
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
